@@ -1,10 +1,10 @@
 header {box-sizing: border-box;padding: 20px 0px;border: 1px;}
 .logotipo {width: 50px; height: auto; margin-left: 5cm;}
 .menu {margin-left: 1cm;cursor: pointer;}
-.rewards {display: inline-block; margin-left: 1cm;cursor: pointer;}
+.rewards {display: inline-block; margin-left: 1cm;cursor: pointer;color: black;}
 .tiendas {display: inline-block; margin-left: 10cm;cursor: pointer;}
 .ingreso {border: solid; border-radius: 50px; margin-left: 30px;cursor: pointer; border: 2px;}
-.unirse {color: whitesmoke; border-radius: 50px; margin-left: 30px;background-color: black;}
+.unirse {color: whitesmoke;background-color: black; border-radius: 50px; margin-left: 30px;}
 button:hover {border-color: rgb(1, 62, 1);}
 .contenedor img 
 {display:inline-block; 
@@ -16,6 +16,7 @@ span {
   width: 500px; 
   height: 300px; 
   background-color: rgb(1, 62, 1);
-  margin-left: 0px; margin-right: 3cm;}
+  margin-left: 0px; margin-right: 3cm;
+  text-align: center;}
 h1 {color: whitesmoke;}
 h2 {color: whitesmoke;}
