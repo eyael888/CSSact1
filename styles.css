@@ -2,6 +2,6 @@ header {box-sizing: border-box;padding: 20px 0px;}
 .logotipo {width: 50px; height: auto;block-}
 .menu {box-sizing:border: 20px 50px;}
 .rewards {display: inline-block;}
-.tiendas {display: inline-block;}
-.ingreso {border: solid; border-radius: 50%;}
-.unirse {border: solid; border-radius: 50%;}
+.tiendas {display: inline-block; margin-left: 40px;}
+.ingreso {border: solid; border-radius: 50px; margin-left: 40px;}
+.unirse {border: solid; border-radius: 50px; margin-left: 40px;background-color: black; color: aliceblue;}
