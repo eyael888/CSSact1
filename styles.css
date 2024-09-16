@@ -1,4 +1,4 @@
-* {box-sizing: border-box;}
+* {box-sizing: border-box;align-items: center;}
 /* position:relative - mantiene el objeto en el lugar donde se indica en relacion. En este caso arriba y a la
  izquierda, es decir se espera que no se mueva de su lugar sin importar el movimieto del resto de los elementos */
 .contmenu {display: block; padding: 20px; width: 100%; position: relative; top: 0%; left: 0%;}
