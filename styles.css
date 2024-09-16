@@ -1,7 +1,8 @@
 header {box-sizing: border-box;padding: 20px 0px;}
-.logotipo {width: 50px; height: auto;block-}
-.menu {box-sizing:border: 20px 50px;}
-.rewards {display: inline-block;}
-.tiendas {display: inline-block; margin-left: 40px;}
-.ingreso {border: solid; border-radius: 50px; margin-left: 40px;}
-.unirse {border: solid; border-radius: 50px; margin-left: 40px;background-color: black; color: aliceblue;}
+.logotipo {width: 50px; height: auto; margin-left: 5cm;}
+.menu {margin-left: 1cm;}
+.rewards {display: inline-block; margin-left: 1cm;}
+.tiendas {display: inline-block; margin-left: 15cm;cursor: pointer;}
+.ingreso {border: solid; border-radius: 50px; margin-left: 30px;cursor: pointer;}
+.unirse {border: solid; border-radius: 50px; margin-left: 30px;background-color: black; color: red;}
+button:hover {background-color: rgb(1, 27, 1);}
