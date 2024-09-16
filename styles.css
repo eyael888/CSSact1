@@ -1,5 +1,7 @@
 * {box-sizing: border-box;}
-header {box-sizing: border-box;padding: 20px 0px;border: 1px;}
+/* position:relative - mantiene el objeto en el lugar donde se indica en relacion. En este caso arriba y a la
+ izquierda, es decir se espera que no se mueva de su lugar sin importar el movimieto del resto de los elementos */
+.contmenu {display: block; padding: 20px; width: 100%; position: relative; top: 0%; left: 0%;}
 .logotipo {width: 50px; height: auto; margin-left: 5cm;}
 .menu {margin-left: 1cm;cursor: pointer;}
 .rewards {display: inline-block; margin-left: 1cm;cursor: pointer;color: black;}
@@ -7,17 +9,18 @@ header {box-sizing: border-box;padding: 20px 0px;border: 1px;}
 .ingreso {border: solid; border-radius: 50px; margin-left: 30px;cursor: pointer; border: 2px;}
 .unirse {color:white; background-color: black; border-radius: 50px; margin-left: 30px;}
 button:hover {border-color: rgb(1, 62, 1);}
+
 .contenedor img 
 {display:inline-block; 
   width: 500px; 
   height: 300px; 
   background-color: rgb(1, 62, 1);
-  margin-left: 3cm; margin-right: 0px;}
+  margin-left: 0px;margin-right: 3cm;}
 span {display:inline-block; 
   width: 500px; 
   height: 300px; 
   background-color: rgb(1, 62, 1);
-  margin-left: 0px; margin-right: 3cm;
+  margin-left: 3cm; margin-right: 0px;
   text-align: center;
   border: 5px;vertical-align: top;
   margin: auto;
