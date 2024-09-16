@@ -1,3 +1,4 @@
+* {box-sizing: border-box;}
 header {box-sizing: border-box;padding: 20px 0px;border: 1px;}
 .logotipo {width: 50px; height: auto; margin-left: 5cm;}
 .menu {margin-left: 1cm;cursor: pointer;}
@@ -30,7 +31,7 @@ h2 {color: whitesmoke;}
   height: 300px; 
   background-color: peachpuff;
   margin-left: 0cm; margin-right: 3cm;}
-.cont2 {display:inline-block; 
+.texto2 {display:inline-block; 
   width: 500px; 
   height: 300px; 
   background-color: peachpuff;
