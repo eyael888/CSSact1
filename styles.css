@@ -5,18 +5,18 @@ header {box-sizing: border-box;padding: 20px 0px;border: 1px;}
 .rewards {display: inline-block; margin-left: 1cm;cursor: pointer;color: black;}
 .tiendas {display: inline-block; margin-left: 10cm;cursor: pointer;}
 .ingreso {border: solid; border-radius: 50px; margin-left: 30px;cursor: pointer; border: 2px;}
-#boton {color:white; background-color: black; border-radius: 50px; margin-left: 30px;}
+.unirse {color:white; background-color: black; border-radius: 50px; margin-left: 30px;}
 button:hover {border-color: rgb(1, 62, 1);}
 .contenedor img 
 {display:inline-block; 
-  width: 500px; height: 300px;
-  padding: 0%;
+  width: 500px; 
+  height: 300px; 
   background-color: rgb(1, 62, 1);
   margin-left: 3cm; margin-right: 0px;}
 span {display:inline-block; 
-  width: 500px; height: 300px;
-  padding: 0%;
- background-color: rgb(1, 62, 1);
+  width: 500px; 
+  height: 300px; 
+  background-color: rgb(1, 62, 1);
   margin-left: 0px; margin-right: 3cm;
   text-align: center;
   border: 5px;vertical-align: top;
@@ -25,17 +25,18 @@ span {display:inline-block;
 h1 {color: whitesmoke;}
 h2 {color: whitesmoke;}
 
-
+.contenedor2 img 
+{display:inline-block; 
+  width: 500px; 
+  height: 300px; 
+  background-color: peachpuff;
+  margin-left: 0cm; margin-right: 3cm;}
 .texto2 {display:inline-block; 
-  padding: 0%; width: 500px; height: 300px;
+  width: 500px; 
+  height: 300px; 
   background-color: peachpuff;
   margin-left: 3cm; margin-right: 0px;
   text-align: center;
   border: 5px;vertical-align: top;
   margin: auto;}
 #negro {color: black;}
-.contenedor2 img {display:inline-block; 
-  padding: 0%;  width: 500px; height: 300px;
-  background-color: peachpuff;
-  margin-left: 0cm; margin-right: 3cm;}
-
