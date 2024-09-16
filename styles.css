@@ -4,9 +4,6 @@ header {box-sizing: border-box;padding: 20px 0px;border: 1px; border: solid;}
 .rewards {display: inline-block; margin-left: 1cm; color: aliceblue;}
 .tiendas {display: inline-block; margin-left: 10cm;cursor: pointer;border: solid; border 2px}
 .ingreso {border: solid; border-radius: 50px; margin-left: 30px;cursor: pointer; border: 2px;}
-.unirse {color: whitesmoke; border-radius: 50px; margin-left: 30px;background-color: black; color:black;}
+.unirse {color: whitesmoke; border-radius: 50px; margin-left: 30px;background-color: black; color: whitesmoke;}
 button:hover {border-color: rgb(1, 62, 1);}
-.contenedor {position: relative; width: 100%; max-width: 800px;}
-.contenedor img {margin-left: 1cm; width: 400px; height: 250px; background-color: rgb(1, 62, 1);}
-.texto {position: absolute; text-align: center;margin: 1cm; background-color: rgb(1, 62, 1); color: whitesmoke;}
-#boton {color: whitesmoke;}
+.contenedor img {display:inline-block; width: 500px; height: 260px; background-color: rgb(1, 62, 1);}
