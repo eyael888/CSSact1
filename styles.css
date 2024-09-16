@@ -1,8 +1,10 @@
-header {box-sizing: border-box;padding: 20px 0px;}
+header {box-sizing: border-box;padding: 20px 0px;border: 1px; border: solid;}
 .logotipo {width: 50px; height: auto; margin-left: 5cm;}
 .menu {margin-left: 1cm;}
 .rewards {display: inline-block; margin-left: 1cm;}
-.tiendas {display: inline-block; margin-left: 15cm;cursor: pointer;}
-.ingreso {border: solid; border-radius: 50px; margin-left: 30px;cursor: pointer;}
-.unirse {border: solid; border-radius: 50px; margin-left: 30px;background-color: black; color: red;}
-button:hover {background-color: rgb(1, 27, 1);}
+.tiendas {display: inline-block; margin-left: 10cm;cursor: pointer;}
+.ingreso {border: solid; border-radius: 50px; margin-left: 30px;cursor: pointer; border: 1px;}
+.unirse {color: whitesmoke; border-radius: 50px; margin-left: 30px;background-color: black; color:black;}
+button:hover {border-color: rgb(1, 62, 1);}
+.der {margin-left: 0px;text-align: center;margin-right: 3cm;background-color: rgb(1, 62, 1);}
+.uno {margin: 3cm;}
