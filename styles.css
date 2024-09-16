@@ -6,5 +6,6 @@ header {box-sizing: border-box;padding: 20px 0px;border: 1px; border: solid;}
 .ingreso {border: solid; border-radius: 50px; margin-left: 30px;cursor: pointer; border: 1px;}
 .unirse {color: whitesmoke; border-radius: 50px; margin-left: 30px;background-color: black; color:black;}
 button:hover {border-color: rgb(1, 62, 1);}
-.der {margin-left: 0px;text-align: center;margin-right: 3cm;background-color: rgb(1, 62, 1);}
-.uno {margin: 3cm;}
+.contenedor {position: relative; width: 100%; max-width: 1000px;}
+.contenedor img {margin-left: 0px; height: auto;}
+.texto {position: absolute; margin-right: 0px;}
