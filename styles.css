@@ -1,30 +1,37 @@
-* {box-sizing: border-box;align-items: center;}
+.contmenu {box-sizing: border-box; width: 100%; display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 80px;
+  margin-bottom: 20px;
+  display: block; position: relative; top: 0%; left: 0%; white-space: nowrap}
 /* position:relative - mantiene el objeto en el lugar donde se indica en relacion. En este caso arriba y a la
  izquierda, es decir se espera que no se mueva de su lugar sin importar el movimieto del resto de los elementos */
-.contmenu {display: block; padding: 20px; width: 100%; position: relative; top: 0%; left: 0%;}
-.logotipo {width: 50px; height: auto; margin-left: 5cm;}
+.logotipo {width: 50px; height: auto; margin-left: 10cm;}
 .menu {margin-left: 1cm;cursor: pointer;}
 .rewards {display: inline-block; margin-left: 1cm;cursor: pointer;color: black;}
 .tiendas {display: inline-block; margin-left: 10cm;cursor: pointer;}
-.ingreso {border: solid; border-radius: 50px; margin-left: 30px;cursor: pointer; border: 2px;}
-.unirse {color:white; background-color: black; border-radius: 50px; margin-left: 30px;}
-button:hover {border-color: rgb(1, 62, 1);}
+.ingreso {border: solid; border-radius: 50px; margin-left: 30px;cursor: pointer; border: 2px solid black;}
+#unete {border-radius: 50px; margin-left: 30px; color: white;}
+button:hover {border-color: greenyellow;}
 
 .contenedor img 
-{display:inline-block; 
+{box-sizing: border-box; width: 100%;
   width: 500px; 
   height: 300px; 
   background-color: rgb(1, 62, 1);
-  margin-left: 0px;margin-right: 3cm;}
-span {display:inline-block; 
+  margin-left: 9cm;margin-right: 0 px; padding: 5px;
+margin-bottom: 20px;}
+.texto1 {display:inline-block; 
+  width: 100%;
   width: 500px; 
   height: 300px; 
   background-color: rgb(1, 62, 1);
   margin-left: 0px; margin-right: 0px;
   text-align: center;
-  border: 5px;vertical-align: top;
-  margin: auto;
-}
+  border: 5px;vertical-align:top;
+  margin: auto;}
 h1 {color: whitesmoke;}
 h2 {color: whitesmoke;}
 
@@ -33,13 +40,157 @@ h2 {color: whitesmoke;}
   width: 500px; 
   height: 300px; 
   background-color: peachpuff;
-  margin-left: 0cm; margin-right: 3cm;}
+  margin-left: 0cm; margin-right:;}
 .texto2 {display:inline-block; 
   width: 500px; 
   height: 300px; 
   background-color: peachpuff;
-  margin-left: 3cm; margin-right: 0px;
+  margin-left: 9cm; margin-right: 0px;
   text-align: center;
-  border: 5px;vertical-align: top;
-  margin: auto;}
+  vertical-align: top; margin-bottom: 20px;}
 #negro {color: black;}
+
+.contenedor3 img 
+{box-sizing: border-box; width: 100%; 
+  display:inline-block; 
+  width: 500px; 
+  height: 300px; 
+  background-color: rgb(1, 62, 1);
+  margin-left: 9cm;margin-right: 0 px; padding: 5px;
+margin-bottom: 20px;}
+.texto3 {display:inline-block; 
+  width: 500px; 
+  height: 300px; 
+  background-color: rgb(1, 62, 1);
+  margin-left: 0px; margin-right: 0px;
+  text-align: center;
+  border: 5px;vertical-align:top;
+  margin: auto;
+}
+.masinfo {border-radius: 50px;}
+.masinfo:hover {background-color: chartreuse;}
+h1 {color: whitesmoke;}
+h2 {color: whitesmoke;}
+
+.contenedor4 img 
+{display:inline-block; 
+  width: 500px; 
+  height: 300px; 
+  background-color: rgb(215, 158, 75);
+  margin-left: 0cm; margin-right:;}
+.texto4 {display:inline-block; 
+  width: 500px; 
+  height: 300px; 
+  background-color: rgb(215, 158, 75);
+  margin-left: 9cm; margin-right: 0px;
+  text-align: center;
+  vertical-align: top; margin-bottom: 20px;}
+
+.contenedor5 img 
+{display:inline-block; 
+  width: 500px; 
+  height: 300px; 
+  background-color: rgb(75, 173, 215);
+  margin-left: 0cm; margin-right:;}
+.texto5 {display:inline-block; 
+  width: 500px; 
+  height: 300px; 
+  background-color: rgb(75, 173, 215);
+  margin-left: 9cm; margin-right: 0px;
+  text-align: center;
+  vertical-align: top; margin-bottom: 20px;}
+
+
+  .contenedor6 img 
+{box-sizing: border-box; width: 100%; 
+  display:inline-block; 
+  width: 500px; 
+  height: 300px; 
+  background-color: rgb(1, 62, 1);
+  margin-left: 9cm;margin-right: 0 px; padding: 5px;
+margin-bottom: 20px;}
+.texto6 {display:inline-block; 
+  width: 500px; 
+  height: 300px; 
+  background-color: rgb(1, 62, 1);
+  margin-left: 0px; margin-right: 0px;
+  text-align: center;
+  border: 5px;vertical-align:top;
+  margin: auto;
+}
+.descargaapp {border-radius: 50px;}
+.descargaapp:hover {background-color: chartreuse;}
+h1 {color: whitesmoke;}
+h2 {color: whitesmoke;}
+
+.contenedor7 img 
+{box-sizing: border-box; width: 100%; 
+  display:inline-block; 
+  width: 500px; 
+  height: 300px; 
+  background-color: rgb(18, 56, 93);
+  margin-left: 9cm;margin-right: 0 px; padding: 5px;
+margin-bottom: 20px;}
+.texto7 {display:inline-block; 
+  width: 500px; 
+  height: 300px; 
+  background-color: rgb(18, 56, 93);
+  margin-left: 0px; margin-right: 0px;
+  text-align: center;
+  border: 5px;vertical-align:top;
+  margin: auto;
+}
+.conoce {border-radius: 50px;}
+.conoce:hover {background-color: chartreuse;}
+h1 {color: whitesmoke;}
+h2 {color: whitesmoke;}
+
+
+.contenedor89 img 
+{box-sizing: border-box; width: 50%; 
+  display:inline-block; 
+  width: 500px; 
+  height: 300px; 
+  background-color: rgb(73, 45, 6);
+  margin-left: 9cm;margin-right: 0 px; padding: 5px;}
+#cuadro9 {background-color: rgb(18, 56, 93);margin-left: 0px}
+
+
+.texto8 {display:inline-block; 
+  width: 500px; 
+  height: 300px; 
+  background-color: rgb(73, 45, 6);
+  margin-left: 9cm; margin-right: 0px;
+  text-align: center;
+  margin-bottom: 20px;}
+
+  .texto9 {display:inline-block; 
+    width: 500px; 
+    height: 300px; 
+    background-color: rgb(18, 56, 93);
+    margin-left: 0px; margin-right: 0px;
+    text-align: center;
+    vertical-align: top; margin-bottom: 20px;}
+
+    .aqui {border-radius: 50px;}
+.aqui:hover {background-color: chartreuse;}
+
+.vermas {border-radius: 50px;}
+.vermas:hover {background-color: chartreuse;}
+
+
+.sobre {display:inline-block; 
+  width: 200px; 
+  height: 150px; 
+  margin-left: 9cm; margin-right: 1cm;
+  text-align: right;
+  margin-bottom: 20px;cursor: pointer;}
+
+  .atencion {display:inline-block; 
+    width: 250; 
+    height: 150; 
+    margin-left: 0px; margin-right: 0px;
+    text-align: left;
+    vertical-align: top; margin-bottom: 20px; cursor: pointer;}
+
+  .foot {box-sizing: border-box; color: gray; display: block;text-align: center; letter-spacing: -0.16px;}
