@@ -1,196 +1,92 @@
-.contmenu {box-sizing: border-box; width: 100%; display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  height: 80px;
-  margin-bottom: 20px;
-  display: block; position: relative; top: 0%; left: 0%; white-space: nowrap}
-/* position:relative - mantiene el objeto en el lugar donde se indica en relacion. En este caso arriba y a la
- izquierda, es decir se espera que no se mueva de su lugar sin importar el movimieto del resto de los elementos */
-.logotipo {width: 50px; height: auto; margin-left: 10cm;}
-.menu {margin-left: 1cm;cursor: pointer;}
-.rewards {display: inline-block; margin-left: 1cm;cursor: pointer;color: black;}
-.tiendas {display: inline-block; margin-left: 10cm;cursor: pointer;}
-.ingreso {border: solid; border-radius: 50px; margin-left: 30px;cursor: pointer; border: 2px solid black;}
-#unete {border-radius: 50px; margin-left: 30px; color: white;}
-button:hover {border-color: greenyellow;}
-
-.contenedor img 
-{box-sizing: border-box; width: 100%;
-  width: 500px; 
-  height: 300px; 
-  background-color: rgb(1, 62, 1);
-  margin-left: 9cm;margin-right: 0 px; padding: 5px;
-margin-bottom: 20px;}
-.texto1 {display:inline-block; 
-  width: 100%;
-  width: 500px; 
-  height: 300px; 
-  background-color: rgb(1, 62, 1);
-  margin-left: 0px; margin-right: 0px;
-  text-align: center;
-  border: 5px;vertical-align:top;
-  margin: auto;}
-h1 {color: whitesmoke;}
-h2 {color: whitesmoke;}
-
-.contenedor2 img 
-{display:inline-block; 
-  width: 500px; 
-  height: 300px; 
-  background-color: peachpuff;
-  margin-left: 0cm; margin-right:;}
-.texto2 {display:inline-block; 
-  width: 500px; 
-  height: 300px; 
-  background-color: peachpuff;
-  margin-left: 9cm; margin-right: 0px;
-  text-align: center;
-  vertical-align: top; margin-bottom: 20px;}
-#negro {color: black;}
-
-.contenedor3 img 
-{box-sizing: border-box; width: 100%; 
-  display:inline-block; 
-  width: 500px; 
-  height: 300px; 
-  background-color: rgb(1, 62, 1);
-  margin-left: 9cm;margin-right: 0 px; padding: 5px;
-margin-bottom: 20px;}
-.texto3 {display:inline-block; 
-  width: 500px; 
-  height: 300px; 
-  background-color: rgb(1, 62, 1);
-  margin-left: 0px; margin-right: 0px;
-  text-align: center;
-  border: 5px;vertical-align:top;
-  margin: auto;
+/* grid para columnas de cajas 
+align-items centra verticalmente en cajas
+text-align alinea horizontalmente en cajas
+white-space: nowrap para que no se corte la linea
+justify-content centra el div en toda la pantalla*/
+.heading{display: grid;grid-template-columns: 50px 900px; align-items: center;
+    white-space: nowrap; justify-content: center;text-align: center;border-bottom: 4px solid ;border-color: rgb(188, 221, 155);
 }
-.masinfo {border-radius: 50px;}
-.masinfo:hover {background-color: chartreuse;}
-h1 {color: whitesmoke;}
-h2 {color: whitesmoke;}
-
-.contenedor4 img 
-{display:inline-block; 
-  width: 500px; 
-  height: 300px; 
-  background-color: rgb(215, 158, 75);
-  margin-left: 0cm; margin-right:;}
-.texto4 {display:inline-block; 
-  width: 500px; 
-  height: 300px; 
-  background-color: rgb(215, 158, 75);
-  margin-left: 9cm; margin-right: 0px;
-  text-align: center;
-  vertical-align: top; margin-bottom: 20px;}
-
-.contenedor5 img 
-{display:inline-block; 
-  width: 500px; 
-  height: 300px; 
-  background-color: rgb(75, 173, 215);
-  margin-left: 0cm; margin-right:;}
-.texto5 {display:inline-block; 
-  width: 500px; 
-  height: 300px; 
-  background-color: rgb(75, 173, 215);
-  margin-left: 9cm; margin-right: 0px;
-  text-align: center;
-  vertical-align: top; margin-bottom: 20px;}
-
-
-  .contenedor6 img 
-{box-sizing: border-box; width: 100%; 
-  display:inline-block; 
-  width: 500px; 
-  height: 300px; 
-  background-color: rgb(1, 62, 1);
-  margin-left: 9cm;margin-right: 0 px; padding: 5px;
-margin-bottom: 20px;}
-.texto6 {display:inline-block; 
-  width: 500px; 
-  height: 300px; 
-  background-color: rgb(1, 62, 1);
-  margin-left: 0px; margin-right: 0px;
-  text-align: center;
-  border: 5px;vertical-align:top;
-  margin: auto;
+ul{width: 80px; display: grid;grid-template-columns:repeat(5,100px);text-align: center;
 }
-.descargaapp {border-radius: 50px;}
-.descargaapp:hover {background-color: chartreuse;}
-h1 {color: whitesmoke;}
-h2 {color: whitesmoke;}
-
-.contenedor7 img 
-{box-sizing: border-box; width: 100%; 
-  display:inline-block; 
-  width: 500px; 
-  height: 300px; 
-  background-color: rgb(18, 56, 93);
-  margin-left: 9cm;margin-right: 0 px; padding: 5px;
-margin-bottom: 20px;}
-.texto7 {display:inline-block; 
-  width: 500px; 
-  height: 300px; 
-  background-color: rgb(18, 56, 93);
-  margin-left: 0px; margin-right: 0px;
-  text-align: center;
-  border: 5px;vertical-align:top;
-  margin: auto;
+.logo{    width: 50px; margin-left: 30px
+   }
+#derloc{margin-left: 400px; text-align: center;
 }
-.conoce {border-radius: 50px;}
-.conoce:hover {background-color: chartreuse;}
-h1 {color: whitesmoke;}
-h2 {color: whitesmoke;}
+button{
+    border-radius: 50px;margin-left: 30px; text-align: center;
+}
+.menu{
+    box-sizing: border-box; max-width: 900px;margin-left: 40px;font-family: Arial, Helvetica, sans-serif;font-variant: ;
+}
+#rew{
+    margin-left: 30px;
+}
+#unete{
+    /* la instruccion de letra color blanco no funciona por lo que se ingreso el style
+    directo en html - hasta verificar herencia de otra regla */
+    background-color: black; color: white;
+}
+#ingresar:hover{ background-color: rgb(209, 192, 192); border-color: greenyellow;}
+#unete:hover{ background-color: rgb(55, 49, 49);border-color: greenyellow;}
 
 
-.contenedor89 img 
-{box-sizing: border-box; width: 50%; 
-  display:inline-block; 
-  width: 500px; 
-  height: 300px; 
-  background-color: rgb(73, 45, 6);
-  margin-left: 9cm;margin-right: 0 px; padding: 5px;}
-#cuadro9 {background-color: rgb(18, 56, 93);margin-left: 0px}
+.banner0{
+display: grid;grid-template-columns:auto auto;background-color: rgb(5, 57, 5);
+color: white;text-align: center;justify-content: center;align-items: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+box-sizing: border-box;  width: 1260px; margin-left: auto;margin-right: auto;margin-bottom: 20px;}
+.texto1{    width: 560px;}
 
+.banner2{
+display: grid;grid-template-columns: auto auto;background-color: rgb(241, 184, 159);
+text-align: center;justify-content: center;align-items: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+box-sizing: border-box;  width: 1260px; margin-left: auto;margin-right: auto;margin-bottom: 20px;}
+.texto2{width: 510px; margin-left: 30px;}
+.img2{margin-left: 20px;}
+    
 
-.texto8 {display:inline-block; 
-  width: 500px; 
-  height: 300px; 
-  background-color: rgb(73, 45, 6);
-  margin-left: 9cm; margin-right: 0px;
-  text-align: center;
-  margin-bottom: 20px;}
+.texto3{width: 530px; margin-right: 30px;}
+.img3{margin margin-right: 60px}
 
-  .texto9 {display:inline-block; 
-    width: 500px; 
-    height: 300px; 
-    background-color: rgb(18, 56, 93);
-    margin-left: 0px; margin-right: 0px;
-    text-align: center;
-    vertical-align: top; margin-bottom: 20px;}
+.banner4{
+    display: grid;grid-template-columns: auto auto;background-color: rgb(220, 152, 56);
+    text-align: center;justify-content: center;align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;  width: 1260px; margin-left: auto;margin-right: auto;margin-bottom: 20px;}
+    .texto4{width: 510px; margin-left: 30px;}
+    .img4{margin-left: 20px;}
 
-    .aqui {border-radius: 50px;}
-.aqui:hover {background-color: chartreuse;}
+    .banner5{
+        display: grid;grid-template-columns: auto auto;background-color: rgb(100, 186, 212);
+        text-align: center;justify-content: center;align-items: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        box-sizing: border-box;  width: 1260px; margin-left: auto;margin-right: auto;margin-bottom: 20px;}
+        .texto5{width: 510px; margin-left: 30px;}
+        .img5{margin-left: 20px;}
 
-.vermas {border-radius: 50px;}
-.vermas:hover {background-color: chartreuse;}
+        .banner7{
+            display: grid;grid-template-columns: auto auto;background-color:rgb(9, 46, 78));
+            text-align: center;justify-content: center;align-items: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            box-sizing: border-box;  width: 1260px; margin-left: auto;margin-right: auto;margin-bottom: 20px;}
+            .texto7{width: 510px; margin-left: 50px;}
+            
+            .banner8{
+                display: grid;grid-template-rows: auto auto;background-color:rgb(40, 22, 2);
+                text-align: center;justify-content: center;align-items: center;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                box-sizing: border-box;  width: 620px; margin-left: 90px;margin-right: auto;margin-bottom: 20px;}
+                .texto8{box-sizing: border-box;height: 200px;text-align: center;}
+                
+                .banner9{
+                    display: grid;grid-template-rows: auto auto;background-color:rgb(40, 22, 2);
+                    text-align: center;justify-content: center;align-items: center;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    box-sizing: border-box;  width: 620px; ;margin-right: auto;margin-bottom: 20px;margin-left: 10px;}
+                    .texto9{box-sizing: border-box;height: 200px;text-align: center;}
 
-
-.sobre {display:inline-block; 
-  width: 200px; 
-  height: 150px; 
-  margin-left: 9cm; margin-right: 1cm;
-  text-align: right;
-  margin-bottom: 20px;cursor: pointer;}
-
-  .atencion {display:inline-block; 
-    width: 250; 
-    height: 150; 
-    margin-left: 0px; margin-right: 0px;
-    text-align: left;
-    vertical-align: top; margin-bottom: 20px; cursor: pointer;}
-
-  .foot {box-sizing: border-box; color: gray; display: block;text-align: center; letter-spacing: -0.16px;}
+.bannerg{
+    display: grid;grid-template-columns: repeat(2, 720px);box-sizing: border-box;
+    margin-left: auto; margin-right: auto;justify-content: center;
+}
